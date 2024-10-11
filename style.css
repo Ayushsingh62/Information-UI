@@ -10,6 +10,10 @@ display: flex;
 align-items: center;
 flex-direction: column;
 position: relative;
+
+}
+.menu{
+    display: none;
 }
 .navbar{
     width: 80%;
@@ -209,6 +213,17 @@ h1{
     .container{
         width: 100%;
         height: auto;
+        position: relative;
+    }
+    .menu{
+        display: inline-block;
+        img{
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            top: 40px;
+            right: 20px;
+        }
     }
     .left-section{
         width: 100%;
